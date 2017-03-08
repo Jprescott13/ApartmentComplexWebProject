@@ -8,10 +8,30 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller 
 public class HelloController {
-
-	@RequestMapping("/greeting")
-	public String displayGreeting() {
+	
+	@RequestMapping("/")
+	public String displayHome() {
 		
-		return "greeting";
+		return "home";
 	}
+	
+	@RequestMapping("/floorPlans")
+	public String displayFloorPlansPage() {
+	
+		return "floorPlans";
+	}
+	
+	@RequestMapping("/community")
+	public String displayCommunityPage() {
+		
+		return "community";
+	}
+	
+	@RequestMapping("/contact")
+	public String displayContactUs() {
+		
+		return "contact";
+	}
+	
+	
 }
