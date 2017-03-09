@@ -7,5 +7,6 @@
 	</head>
 	<body>
 		<h1>Hello, <c:out value="${param.name}" />!</h1>
+		
 	</body>
 </html>
