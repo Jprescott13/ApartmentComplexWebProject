@@ -5,7 +5,6 @@
 	<head>
 		<meta charset = "UTF-8">
 		<title> Apartment Complex Name</title>
-		
 		<c:url value = "/css/style.css" var= "cssHref" />
 		<link rel="stylesheet" type="text/css" href="${cssHref}" >
 		
@@ -19,6 +18,14 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	</head>
+	
 	<body>
-		<h1>Hello, <c:out value="${param.name}" />!</h1>
+		<header>
+			<c:url value= "/img/Banner.jpg" var="headerBaseImage" />
+			<c:url value= "/" var="homePageHref" />
+			<a href = "${homePageHref}">
+				<img id="headerImg" alt="Page Banner" src ="${headerBaseImage}" />
+			</a>
+		
+		</header>
 	
