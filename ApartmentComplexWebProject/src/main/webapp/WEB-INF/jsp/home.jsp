@@ -11,9 +11,12 @@
 		</div>
 		
 		<div>
-		<h1></h1>
+		<img src="/img/Banner.jpg"/>
 		</div>
 		
+		<div>
+		
+		</div>
 		
 	</body>
 </html>
