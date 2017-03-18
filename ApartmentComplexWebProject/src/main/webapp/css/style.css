@@ -16,6 +16,7 @@
 	Border-right: hidden;
 }
 
+
 #headerImg {
 	height: 60px;
 	width: auto;
@@ -112,7 +113,7 @@
 	opacity:.7;
 	
 	text-align: Center;
-	Color: gold;
+	Color: #C3971A;
 }
 
 
@@ -136,6 +137,15 @@
 	margin-left: 10%;
 	margin-top: 5%;
 	Width: 25%;
+	rotate: 15%;
+	
+	Border-radius: 15px;
+	Border-width: 10px;
+	Border: solid;
+	Border-color: #212121;
+	-ms-transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+    transform: rotate(-8deg);
 	
 }
 
@@ -157,7 +167,7 @@
 	margin-top: 5%;
 	margin-left: 18%;
 	Width: 30%;
-	color: gold;
+	color: #C3971A;
 }
 
 #homePageSection3Titles {
@@ -188,7 +198,36 @@
 
 .homePageSection4 {
 	Height: 400px;
-	background-color: red;
+	background-color: #272727;
+	Border-color: #C3971A;
+	Border-width: 6px;
+	Border-style: solid;
+	Border-Left: Hidden;
+	Border-right: Hidden; 
+	
+}
+
+
+#homePageSection4Image {
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+}
+
+
+
+#HomePageSection4Description {
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+	font-size: 18px;
 	
 }
 
@@ -199,12 +238,22 @@
  */
  
  
- .floorplanSection1 {
+.floorplanSection1 {
  	background-color: red;
  	width: 80%;
- 	Height: 600px;
+ 	Height: 100px;
  }
  
+ 
+.floorplanSection2 {
+ 	display: inline;
+ 	Width: 200px;
+ }
+ 
+ #FormInputs {
+ 	Width: 200px;
+ 
+ }
  
  /*
  ********************************************

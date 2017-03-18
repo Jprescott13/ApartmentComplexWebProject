@@ -56,6 +56,16 @@
 		</div>
 		
 		<div class = "homePageSection4">
+		
+			<c:url value="img/TT-ApartmentLogo1.png" var="apartmentsAtTT" />
+			<img id="homePageSection4Image" alt="ResidencesLogo" src="${apartmentsAtTT}" />
+		
+			<p id= "HomePageSection4Description"> 
+			The Tower Top Apartments are downtown living at its best. The only location where you don't have to 
+			compromise luxury and location. City views from every unit, and first class details are designed
+			to bring you the sophisticated contemporary lifestyle you demand.  
+		
+		
 		</div>
 		
 	</body>
