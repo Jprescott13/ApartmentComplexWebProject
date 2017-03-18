@@ -21,6 +21,11 @@ public class HelloController {
 		return "floorPlans";
 	}
 	
+	@RequestMapping ("/residences")
+	public String displayResidencesPage() {
+		return "residences";
+	}
+	
 	@RequestMapping("/community")
 	public String displayCommunityPage() {
 		

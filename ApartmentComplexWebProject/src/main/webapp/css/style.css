@@ -1,11 +1,228 @@
-#TestCase {
+
+/*
+****************************************
+************** HEADER CSS **************
+****************************************
+*/
+
+.headerBar {
+	
+	display: block;
+	width: 100%;
+	height: 60px;
+	background-color: #454444;
+	border-bottom: 4px solid black;
+	border-left: hidden;
+	Border-right: hidden;
+}
+
+#headerImg {
+	height: 60px;
+	width: auto;
+	margin-right: 40px;
+	border-bottom: 4px solid black;
+}
+
+.menuRibbon {
+	display: inline;
+	
+	margin-right: 25px;
+	margin-left: 10px;
+	
+	padding-right: 30px;
+	padding-left: 30px;
+	
+	border-width: 2px;
+	border-radius: 5px;
+	border-color: gold;
+	border-style: dotted;
+	border-right: hidden;
+	border-top: hidden;
+	border-bottom: hidden;
+	
 	text-align: center;
-	color: red;
-	background-color: black;
+	font-size: 20px;
+	font-color: gold;
 	
 }
-.TestCase {
-	text-align: center;
-	color: red;
-	background-color: black;
+
+/*
+ ****************************************
+ ************** FOOTER CSS **************
+ ****************************************
+ */
+
+
+/*
+ ******************************************
+ ************** HOMEPAGE CSS **************
+ ******************************************
+ */
+
+.homePageSection1 {
+	display: block;
+	Height: 500px;
 }
+
+#homePageSection1Background {
+	display: block;
+	Width: 100%;
+	Height: auto;
+	min-Height: 500px;
+	position: static;
+	z-index: -1;	
+}
+
+#homePageImg {
+	position: absolute;
+	width: 80%;
+	Height: 450px;
+	margin-left: 10%;
+	margin-right: 10%;
+	top: 85px;
+	z-index: 1;
+	Border-radius: 9px;
+	Border-width: 1px;
+	Border: solid;
+	Border-color: black;
+}
+
+
+.homePageSection2 {
+	display: inline-block;
+	Background-Color: #555555;
+	border-top: 4px solid black;
+	border-left: hidden;
+	Border-right: hidden;
+	Height: 425px;
+	z-index: 2;
+	width: 100%;
+}
+
+#homePageSection2Titles {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+	border-top: 2px ridge #555555;
+	border-left: hidden;
+	border-right: hidden;
+	border-bottom: 2px ridge #555555;	
+	opacity:.7;
+	
+	text-align: Center;
+	Color: gold;
+}
+
+
+#homePageSection2description {
+	Color: #969696;
+	font-size: 20px;
+	text-align: Center;	
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.homePageSection3 {
+	Background-Color: Grey;
+	Height: 500px;
+	border-top: 4px solid black;
+	
+}
+
+#homePageSection3Image {
+	display: inline-block;
+	margin-left: 10%;
+	margin-top: 5%;
+	Width: 25%;
+	
+}
+
+#homePageSection3border {
+	position: Absolute;
+	display: inline-block;
+	
+	height: 350px;
+	Border-right: 2px ridge #555555;
+	vertical-align: top;
+	margin-top: 7%;
+	margin-left: 10%;
+	
+}
+
+#homePageSection3SuperTitle {
+	position: Absolute;
+	display: inline-block;
+	margin-top: 5%;
+	margin-left: 18%;
+	Width: 30%;
+	color: gold;
+}
+
+#homePageSection3Titles {
+	position: Absolute;
+	display: inline-block;
+	margin-top: 7%;
+	margin-left: 18%;
+	Width: 35%
+}
+
+#homePageSection3Description {
+	position: Absolute;
+	display: inline-block;
+	margin-top: 11%;
+	margin-left: 18%;
+	Width: 35%
+}
+
+#homePageSection3Button {
+	position: Absolute;
+	display: inline-block;
+	margin-top: 35%;
+	margin-left: 24%;
+	Width: 10%;
+	
+}
+
+
+.homePageSection4 {
+	Height: 400px;
+	background-color: red;
+	
+}
+
+/*
+ ********************************************
+ ************** FLOOR PLAN CSS **************
+ ********************************************
+ */
+ 
+ 
+ .floorplanSection1 {
+ 	background-color: red;
+ 	width: 80%;
+ 	Height: 600px;
+ }
+ 
+ 
+ /*
+ ********************************************
+ *************** COMMUNITY CSS **************
+ ********************************************
+ */
+
+
+ /*
+ ********************************************
+ ************* NEIGHBORHOOD CSS *************
+ ********************************************
+ */
+  
+  
+   /*
+ ********************************************
+ ************** CONTACT US CSS **************
+ ********************************************
+ */
+ 
