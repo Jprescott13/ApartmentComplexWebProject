@@ -44,7 +44,7 @@
 				<a href ="${residencesHref}"> Residences</a>
 			</p>
 			<p class="menuRibbon"> 
-				<a href ="${communityHref}"> Our Community</a>
+				<a href ="${communityHref}"> Community</a>
 			</p>
 			<p class="menuRibbon"> 
 				<a href ="${neighborhoodHref}"> Neighborhood</a>

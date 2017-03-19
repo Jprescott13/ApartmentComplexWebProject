@@ -114,6 +114,7 @@
 	
 	text-align: Center;
 	Color: #C3971A;
+	font-family: 'Playfair display'
 }
 
 
@@ -123,6 +124,8 @@
 	text-align: Center;	
 	padding-top: 20px;
 	padding-bottom: 20px;
+	font-family: 'vollkorn'
+	
 }
 
 .homePageSection3 {
@@ -152,7 +155,6 @@
 #homePageSection3border {
 	position: Absolute;
 	display: inline-block;
-	
 	height: 350px;
 	Border-right: 2px ridge #555555;
 	vertical-align: top;
@@ -168,6 +170,8 @@
 	margin-left: 18%;
 	Width: 30%;
 	color: #C3971A;
+	font-size: 18px;
+	font-family: 'comfortaa';
 }
 
 #homePageSection3Titles {
@@ -175,21 +179,25 @@
 	display: inline-block;
 	margin-top: 7%;
 	margin-left: 18%;
-	Width: 35%
+	Width: 35%;
+	font-family: 'Playfair display';
 }
 
 #homePageSection3Description {
 	position: Absolute;
 	display: inline-block;
 	margin-top: 11%;
-	margin-left: 18%;
-	Width: 35%
+	margin-left: 19%;
+	Width: 30%;
+	font-size: 20px;
+	font-family: 'cormorant-garamond';
+	 
 }
 
 #homePageSection3Button {
 	position: Absolute;
 	display: inline-block;
-	margin-top: 35%;
+	margin-top: 30%;
 	margin-left: 24%;
 	Width: 10%;
 	
@@ -260,6 +268,35 @@
  *************** COMMUNITY CSS **************
  ********************************************
  */
+ 
+ .communitySection1 {
+ 	Height: 800px;
+ 	width: 100%;
+ 	background-color: #212121;
+ 
+ }
+ 
+ #communityPageSection1Titles {
+	color: #C3971A;
+	background-color: orange;
+	display: inline-block;
+	Height: 200px;
+	width: 45%;
+
+ }
+ 
+ .communitySection1b{
+	display: inline-block;
+	width:30%; 
+ }
+ 
+ #CommunityPageImg {
+ 	display: inline-block;
+ 	margin-top: 10px;
+ 	height: 300px;
+ 	width: 300px;
+ 	overflow: hidden;
+ }
 
 
  /*

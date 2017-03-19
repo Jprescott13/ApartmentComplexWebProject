@@ -27,7 +27,7 @@
 		</h3>
 		
 		<h1 id="homePageSection2Titles"> 
-			Now Accepting Applications.
+			Now Accepting Applications
 		</h1>
 		</div>
 		
@@ -50,8 +50,8 @@
 			combine to meet and exceed all expectations. 
 			
 			</h3>	
-			<c:url value="/floorPlans" var="floorPlansHref" />
-			<button id="homePageSection3Button" type="button"><a href ="${floorPlansHref}"> Learn More</a></button>	
+			<c:url value="/residences" var="residencesHref" />
+			<button id="homePageSection3Button" type="button"><a href ="${residencesHref}"> Learn More</a></button>	
 			
 		</div>
 		
